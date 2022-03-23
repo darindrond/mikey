@@ -11,7 +11,7 @@ def logout(request):
     return HttpResponse('welcome to stupid earth')
 
 def lil1(request):
-    return HttpResponse('third eye')
+    return render(request,'index.html')
 
 
 
